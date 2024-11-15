@@ -26,8 +26,8 @@ pipeline {
 	     echo 'Deploying the application'
 	     bat 'echo "Deployment Successfull"' 
 	 }
+}
 
-            }
             post{
 	always{
            	     echo 'Pipeline execution Completed' 
