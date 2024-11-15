@@ -27,12 +27,12 @@ pipeline {
 	     bat 'echo "Deployment Successfull"' 
 	 }
 }
-
+      }
             post{
 	always{
            	     echo 'Pipeline execution Completed' 
                  }
              }
 
-     }
+     
 }
